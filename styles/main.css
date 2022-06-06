@@ -1,0 +1,134 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    color: #eee6e6;
+
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section {
+    width: 100%;
+}
+
+#banner {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/code.jpg");
+  
+    /* Set a specific height */
+    height: 50%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+/* Place text in the middle of the image */
+.banner-text h1 {
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.banner-text h2 {
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+.border-top {
+    border-top: 2px solid #eee6e6;
+    width: 80%;
+    padding: 10px 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: darkblue;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+#flex-intro {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Icon {
+    width: 100%;
+}
+
+.title, #subtitle {
+    line-height: 0;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 8em;
+    text-align: center;
+}
+
+#subtitle {
+    font-size: 3em;
+    text-align: end;
+}
+
+.contact-info, .methods-contact, .my-projects {
+    display: flex;
+}
+
+.contact-info {
+    flex-direction: column;
+    width: 100%;    
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.my-projects {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.project {
+    width: 33%;
+    border: 2px solid #eee6e6;
+    margin: 0 10px;
+    padding: 20px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.card-title {
+    font-size: 2.8em;
+}
+
+.card-summary {
+    font-size: 2em;
+}
