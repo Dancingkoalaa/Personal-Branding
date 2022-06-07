@@ -16,10 +16,6 @@ main {
     width: 100%;
 }
 
-section {
-    width: 100%;
-}
-
 #banner {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: url("../img/code.jpg");
@@ -78,20 +74,12 @@ section {
     align-items: center;
 }
 
-.Icon {
-    width: 100%;
-}
-
-.title, #subtitle {
-    line-height: 0;
-}
-
 .underline {
     text-decoration: underline;
 }
 
 .title {
-    font-size: 8em;
+    font-size: 4em;
     text-align: center;
 }
 
