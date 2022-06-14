@@ -1,5 +1,7 @@
+// const defaultTheme = require(' tailwindcss/defaultTheme')
+
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./*.{html,js}"],
   theme: {
     extend: {
       colors: {
@@ -8,7 +10,10 @@ module.exports = {
         rustyred: '#d83148',
         independence: '#38405f',
         independence2: '#59546c'
-        }
+        },
+      fontFamily: {
+        textstyle: ['Cuprum']
+      }
     },
   },
   plugins: [],

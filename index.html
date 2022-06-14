@@ -22,7 +22,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
     <title>Personal brand</title>
 </head>
@@ -40,14 +42,18 @@
     </nav>
     <main class="items-center">
         <section class="text-center w-4/5" id="AboutMe">
-            <div>
-                <div class="flex item-center">
-                <img class="h-48 w-48 rounded-full" src="img/Xiao.png" />
-                <div>
-                <h1 class="text-6xl	">About me</h1>
-                <p>Hi! My name is Tim, also known as Koala. I am a student at the Rotterdam University of Applied Sciences. I always had an interest in tech, which grew over the years
-                    Before i came here, i also did an MBO study for IT. Pleased to meet you!
-                </p>
+            <div class="flex-col flex">
+                <h1 class="text-6xl	text-center mb-2">About me</h1>
+                <div class="lg:flex-row lg:flex justify-center">
+                    <img class="h-32 w-32 mx-auto lg:h-48 lg:w-48 rounded-full" src="img/Xiao.png" />
+                    <div>
+                <p>Hi! My name is Tim, also known as Koala. I am a student at the Rotterdam University of Applied Sciences.
+                     I always had an interest in tech, which grew over the years. My focus is on full-stack development.
+                     The reason for this is that i enjoy designing but i also like to work on back-end. Because of my past experience and 
+                     knowledge from CMGT, i have learned a lot of differend languages. 
+                    Things like React native, typescript, Laravel but also the well known parts like HTML, CSS and JS are in my arsenal of known languages.</p>
+                <p class="py-2">I would call myself a very critical and realistic person. Especially when i get asked to give feedback or review someones assignment i will take the time to read the full document and ask critical questions about the products to give them the best help they can recieve</p>
+                <p>Before i came here, i also did an MBO study for IT. Pleased to meet you!</p>
                 </div>
                 </div>
             </div>
@@ -78,7 +84,7 @@
                         </a>
                     </div>
                     <div class="pl-5 py-3 mb-10 lg:mb-0">
-                        <h1 class="font-heading text-4xl">Something is comming..</h1>
+                        <h1 class="font-heading text-4xl">Something is coming..</h1>
                         <p class="pb-5 text-xl">
                             Its close..
                         </p>
@@ -87,7 +93,7 @@
                         </a>
                     </div>
                     <div class="pl-5 py-3">
-                        <h1 class="font-heading text-4xl">Something is comming..</h1>
+                        <h1 class="font-heading text-4xl">Something is coming..</h1>
                         <p class="pb-5 text-xl">
                             Its close..
                         </p>
@@ -103,13 +109,13 @@
                 <h1 class="text-6xl	">Find me at</h1>
                 <div class="m-10 flex lg:flex-row" id="methods-contact">
                     <a href="mailto:tim2001.tw@gmail.com">
-                        <img class="h-48 w-48" id="method" src="/img/Mail.png">
+                        <img class="lg:h-32 lg:w-32 w-16 h-16" src="/img/Mail.png">
                     </a>
                     <a href="https://www.linkedin.com/in/tim-wetzels-4595a5152/">
-                        <img class="h-48 w-48 ml-5 mr-5" id="method" src="/img/LinkedIn.png">
+                        <img class="lg:h-32 lg:w-32 w-16 h-16 ml-3 mr-3" src="/img/LinkedIn.png">
                     </a>
                     <a href="https://github.com/dancingkoalaa">
-                        <img class="h-48 w-48" id="method" src="/img/Github.png">
+                        <img class="lg:h-32 lg:w-32 w-16 h-16" src="/img/Github.png">
                     </a>
                 </div>
             </div>
