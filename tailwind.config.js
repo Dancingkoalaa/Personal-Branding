@@ -12,7 +12,7 @@ module.exports = {
         independence2: '#59546c'
         },
       fontFamily: {
-        textstyle: ['Cuprum']
+        textstyle: ['Koulen']
       }
     },
   },
