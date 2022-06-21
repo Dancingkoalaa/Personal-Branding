@@ -6,7 +6,7 @@ main {
 
 #banner {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: url("../img/banner.jpg");
+    background-image: url("../img/banner.png");
   
     /* Set a specific height */
     height: 50%;
@@ -44,5 +44,4 @@ main {
     flex-direction: column;
     width: 100%;    
     align-items: center;
-    margin-top: 100px;
 }
