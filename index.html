@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+          theme: {
+              extend: {
+                  colors: {
+                      jet: '#39332d',
+                      slategray: '#6e8087',
+                      rustyred: '#d83148',
+                      independence: '#38405f',
+                      independence2: '#59546c'
+                  }
+                }
+          }
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <title>Personal brand</title>
+</head>
+<body class="font-textstyle bg-independence text-white h-screen w-full">
+    <div class="object-fill h-48" id="banner">
+        <div class="banner-text">
+            <h1 class='text-6xl underline'>DancingKoalaa</h1>
+            <h2>student - Full stack developer</h2>
+        </div> 
+    </div>
+    <main class="items-center">
+        <section class=" border-t-4 mx-auto border-rustyred w-4/5 pb-5" id="AboutMe">
+            <div class="flex-col flex">
+                <h1 class="font-heading text-6xl text-center py-5">About me</h1>
+                <div class="lg:flex-row lg:flex justify-center">
+                    <img class="h-32 w-32 lg:h-48 mx-auto mb-4 lg:w-48 rounded-full" src="./img/Profielfoto.png" />
+                <div>
+                <p >Hi! Ik ben Tim, of voor sommige vrienden Koala. Ik ben een student aan de Hogeschool in Rotterdam.
+                    Ik heb altijd al een interesse gehad in technologie wat over de jaren is gegroeid. Waarin mijn focus is gelegd op full-stack development
+                    De reden hiervoor is dat ik het ontwerpen erg interessant vind maar toch ook een grote interesse heb in back-end. Mede door mijn voorgaande kennis,
+                    samen met de kennis die ik heb gekregen bij CMGT heb ik veel diverse talen en frameworks geleerd. Dit zijn diverse talen zoals React native, typescript, Laravel en Cypress.
+                    Maar ook de bekendere talen als HTML, CSS en Javascript staan binnen mijn kennisgebied.</p>
+                <p class="py-2">Persoonlijk zou ik mijzelf zien als een erg kritisch en realistisch persoon. Wat ik zelf erg belangrijk vind bij grote projecten.
+                    Vooral wanneer ik wordt gevraagd om feedback te geven of om iets te bekijken neem ik hier de tijd voor om het project en/of document volledig te bekijken. 
+                    Probeer kritische vragen te stellen om hiervoor de beste hulp te bieden die ik kan. Verder heb ik recentelijk mijn ondernemende skills erg ontwikkeld en ben ik erg gegroeid 
+                    als een projectleider en debugger</p>
+                <p>voordat ik begon op het Hbo heb ik ee opleiding gedaan als MBO niveau 4 developer, waar ik basiskennis heb opgedaan voor ICT.
+                    Hier heb ik vooral gewerkt met HTML, CSS, Javascript en PHP. Waardoor ik de conclusie heb getrokken dat dit zeker mijn gewenste werkgebied is.
+                </p>
+                <p>Ik hoop na mijn opleiding te kunnen werken als een full-stack ontwikkelaar waar ik focus op front-end en back-end. Mijn hoop is om vooral te werken 
+                    als webdeveloper met een kleinere focus op mobiel development. Mijn echte einddoel zou zijn om een ProjectManager te zijn en hier nog veel verder in te groeien
+                </p>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="border-t-4 mx-auto border-rustyred w-4/5">
+            <div id="my-portfolio" class="h-max w-full mx-auto lg:w-3/5">
+                <div class="font-heading text-6xl text-center py-5">Een paar van mijn projecten</div>
+                <div class="grid px-5 lg:grid-cols-3 lg:grid-rows-2 lg:gap-10 lg:items-center lg:px-0">
+                    <div class=" pl-5 py-3 mb-10 lg:mb-0">
+                        <h1 class="font-heading text-4xl">Ghost Hunter!</h1>
+                        <p class="pb-5 text-xl">
+                            Een minigame om te spelen in je browser
+                        </p>
+                        <a href="./GhostHunter.html" class="focus:outline-none text-white bg-rustyred hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Read more</a>
+                    </div>
+                    <div class="pl-5 py-3 mb-10 lg:mb-0">
+                        <h1 class="font-heading text-4xl">Weather Predictor</h1>
+                        <p class="pb-5 text-xl">
+                            Een ML5 project om het weer te voorspellen
+                        </p>
+                        <a href="./WeatherPredictor.html" class="focus:outline-none text-white bg-rustyred hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Read more</a>
+                    </div>
+                    <div class="pl-5 py-3 mb-10 lg:mb-0">
+                        <h1 class="font-heading text-4xl">That Stupid GymLeader!!</h1>
+                        <p class="pb-5 text-xl">
+                            Een kleine react native applicatie
+                        </p>
+                        <a href="./ThatStupidGymLeader.html" class="focus:outline-none text-white bg-rustyred hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Read more</a>
+                    </div>
+                    <div class="pl-5 py-3">
+                        <h1 class="font-heading text-4xl">Character Archive</h1>
+                        <p class="pb-5 text-xl">
+                            Mijn eerste laravel project
+                        </p>
+                        <a href="./Laravel.html" class="focus:outline-none text-white bg-rustyred hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Read more</a>
+                    </div>
+                    <div class="pl-5 py-3">
+                        <h1 class="font-heading text-4xl">EezyWork</h1>
+                        <p class="pb-5 text-xl">
+                            Mijn stageopdracht bij Onwego
+                        </p>
+                        <a href="./Eezywork.html" class="focus:outline-none text-white bg-rustyred hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="border-t-4 mx-auto border-rustyred w-4/5">
+            <div class="contact-info">
+                <h1 class="font-heading text-6xl text-center py-5">Find me at</h1>
+                <div class="m-10 flex lg:flex-row" id="methods-contact">
+                    <a href="mailto:tim2001.tw@gmail.com">
+                        <img class="lg:h-32 lg:w-32 w-16 h-16" src="./img/mail.jpg">
+                    </a>
+                    <a href="https://www.linkedin.com/in/tim-wetzels-4595a5152/">
+                        <img class="lg:h-32 lg:w-32 w-16 h-16 ml-3 mr-3" src="./img/LinkedIn.png">
+                    </a>
+                    <a href="https://github.com/dancingkoalaa">
+                        <img class="lg:h-32 lg:w-32 w-16 h-16" src="./img/Github.png">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main> 
+</body>
+</html>
